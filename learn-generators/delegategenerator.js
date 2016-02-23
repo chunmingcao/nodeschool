@@ -13,12 +13,3 @@ for (var f of flat(A)) {
     console.log( f );
 }
 // 1 2 3 4 5 6
-
-    function *dummy () {
-      try {
-        //null.foo(); // causes exception
-      } catch (e) {
-        console.log('Caught exception: %s', e);
-      }
-      yield 'ssssssssssss';
-    }
